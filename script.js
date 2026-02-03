@@ -46,15 +46,17 @@ function burstHearts(){
 
 yesBtn.addEventListener("click", () => {
   openModal(
-    "Bromas ",
+    "Bromas",
     "Solo queria decirte algo...\n\n" +
-    "Gracias por estar en mi vida y por compartir otro mes a mi lado. " +
-    "Espero que sean muchisimos años mas.\n\n" +
-    "Sos el amor de mi vida, la dueña de mi corazon, y quiero hacerte muy feliz. " +
-    "Desde que te conoci, soy el hombre mas feliz.\n\n" +
-    'Quiero construirlo todo a tu lado. 💖'
+      "Gracias por estar en mi vida y por compartir otro mes a mi lado. " +
+      "Espero que sean muchisimos anos mas.\n\n" +
+      "Sos el amor de mi vida, la duena de mi corazon, y quiero hacerte muy feliz. " +
+      "Desde que te conoci, soy el hombre mas feliz.\n\n" +
+      "Quiero construirlo todo a tu lado. 💖\n\n" +
+      "P.D.: Ve a la bodeguita donde iba a ser mi oficina jsjsj 😅"
   );
 });
+
 
 noBtn.addEventListener("click", () => {
   openModal("Ajaja!", "Yo sabia que en el fondo era un SI ");
