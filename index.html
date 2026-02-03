@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>para mi Abi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Playfair+Display:wght@600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main class="screen">
+    <section class="content" id="content" aria-label="Mensaje">
+      <div class="topline">
+        <span class="dot" aria-hidden="true"></span>
+        mi Abi hermosa  
+      </div>
+
+<h1>Vas a poner los papeles de la Rojita a mi nombre... y en un futuro, tambien la casa?</h1>
+
+    </section>
+
+    <!-- Botones flotando por toda la pantalla -->
+    <button class="btn-yes" id="yesBtn" type="button">Si</button>
+    <button class="btn-no" id="noBtn" type="button">No</button>
+
+    <div class="footer" id="footer" aria-label="Info">
+    </div>
+  </main>
+
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Resultado">
+    <div class="modal">
+      <div class="burst" aria-hidden="true"></div>
+      <h2 id="modalTitle">Listo!</h2>
+      <p id="modalText">Perfecto 😄</p>
+      <button class="close" id="closeBtn" type="button">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
